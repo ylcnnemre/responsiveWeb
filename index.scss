@@ -49,6 +49,10 @@ body {
   .legal{
     margin-right: 20px;
   }
+  @media only screen and (min-width: 921px) and (max-width:1024px) {
+    transform: translateY(-40px);
+  }
+ 
   @media only screen and (max-width: 376px) {
     transform: translateY(-30px);
   }
@@ -123,11 +127,19 @@ body {
     }
    
  }
-
+  @media only screen and (max-width: 1024px) {
+    transform: translateY(-150px);
+  }
     @media only screen and (max-width: 912px) {
       flex-direction: column;
       flex-grow: 1;
       align-items: center;
+    }
+    @media only screen and (max-width: 768px) {
+      flex-direction: column;
+      flex-grow: 1;
+      align-items: center;
+      transform: translateY(-70px);
     }
     @media  screen and (max-width: 600px) {
       flex-direction: column;
